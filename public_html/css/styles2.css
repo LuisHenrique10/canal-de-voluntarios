@@ -1,0 +1,65 @@
+label{
+	width: 150px;
+	float: left; 	
+}
+
+input[type=text], textarea, select{
+	float: left;
+	width: 230px;
+	margin-right: 70px;
+}
+
+legend{
+	color: red;
+}
+
+br{
+	clear: left;
+}
+
+.chkbx{
+	width: 15px;
+	margin-right: 20px;
+}
+
+
+#corpo{
+	width:1000px;
+	height: 850px;
+	margin: auto;
+	background:#FFFFFF;
+	text-align: center;
+	padding-top: 40px; 
+}
+
+#botao{
+	float: right;
+}
+
+#coordenador{
+	
+	width: 450px;
+	height: 150px;
+	float: left;
+	margin-bottom: 25px;
+
+}
+
+#vicecoordenador{
+	width: 450px;
+	height: 150px;
+	float: right;
+	margin-bottom: 25px;
+}
+
+#confirmacao{
+	padding-bottom: 5px;
+}
+
+.radiob{
+	width: 15px;
+	float: left;
+	margin-right: 1px;
+	margin-left: 1px;
+	
+}
