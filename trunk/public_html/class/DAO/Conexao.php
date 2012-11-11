@@ -1,0 +1,36 @@
+<?php
+
+/**
+ * Description of Conexao
+ *
+ * @author pedrotanaka
+ */
+class Conexao extends PDO {
+    private $dsn = "mysql:host=mysql5.000webhost.com;dbname=a6754175_g7;charset=UTF-8";
+    private $user = "a6754175_g7";
+    private $password = 'g7geseth';
+    public $handle = null;
+
+    
+    function __construct() {
+        try {
+//aqui ela retornará o PDO em si, veja que usamos parent::_construct()
+            if ($this->handle == null) {
+                $dbh = parent::__construct($this->dsn, $this->user, $this->password);
+                $this->handle = $dbh;
+                return $this->handle;
+                
+            }
+        } catch (PDOException $e) {
+            echo 'Conexão falhou. Erro: ' . $e->getMessage();
+            return false;
+        }
+    }
+    
+//aqui criamos um objeto de fechamento da conexão
+    function __destruct() {
+        $this->handle = NULL;
+    }
+}
+
+?>

@@ -1,0 +1,245 @@
+<form name="cadastro_entidade" id="form_entidade" method="post" action="cadastrar_entidade.php" class="form-horizontal" >
+
+				<fieldset name="dados_entidade" class="form1">
+
+					<legend for="dados_entidade">ENTIDADE </legend>
+
+					<div id="coluna_esquerda">
+
+						<div class="control-group">
+
+							<label for="razao" class="control-label label3" >Razão</label>
+
+							<div class="controls">
+								<input type="text" name="razao"/><span class="required">*</span>
+							</div>
+
+						</div>
+
+						<div class="control-group">
+
+							<label for="responsavel" class="control-label label3" >Responsável</label>
+
+							<div class="controls">
+								<input type="text" name="responsavel"/><span class="required">*</span>
+							</div>
+
+						</div>
+
+						<div class="control-group">
+
+							<label for="logradouro" class="control-label label3" >Logradouro</label>
+
+							<div class="controls">
+								<input type="text" name="logradouro"/>
+							</div>
+
+						</div>
+
+						<div class="control-group">
+
+							<label for="cidade" class="control-label label3" >Cidade</label>
+
+							<div class="controls">
+								<input type="text" name="cidade" placeholder="LONDRINA"/>
+							</div>
+
+						</div>
+
+						<div class="control-group">
+
+							<label for="email" class="control-label label3" >E-mail</label>
+
+							<div class="controls">
+								<input type="text" name="email"/><span class="required">*</span>
+							</div>
+
+						</div>
+
+						<div class="control-group">
+
+							<label for="telefone" class="control-label label3" >Telefone</label>
+
+							<div class="controls">
+								<input type="text" name="telefone" placeholder="(XX) XXXX-XXXX"/><span class="required">*</span>
+							</div>
+
+						</div>
+
+						
+
+
+
+						<div class="control-group">
+
+							<label for="cnpj" class="control-label label3" >CNPJ</label>
+
+							<div class="controls">
+								<input type="text" name="cnpj"/><span class="required">*</span>
+							</div>
+
+						</div>
+
+						
+						<div class="control-group">
+
+							<label for="bairro" class="control-label label3" >Bairro</label>
+
+							<div class="controls">
+								<input type="text" name="bairro"/>
+							</div>
+
+						</div>
+
+						<div class="control-group">
+
+							<label for="regiao" class="control-label label3" >Região</label>
+
+							<div class="controls">
+								<select name="regiao" class="selec">
+								<option value="0">--SELECIONAR--</option>
+								<option value="1">NORTE</option>
+								<option value="2">SUL</option>
+								<option value="3">---</option>
+								<option value="4">---</option>
+								<option value="5">---</option>
+								<option value="6">---</option>
+								</select>
+							</div>
+
+						</div>
+
+						<div class="control-group">
+
+							<label for="fundacao" class="control-label label3" >Data de Fundação</label>
+
+							<div class="controls">
+								<input type="text" name="fundacao"/>
+							</div>
+
+						</div>
+
+						<div class="control-group">
+
+							<label for="site" class="control-label label3" >Site</label>
+
+							<div class="controls">
+								<input type="text" name="site"/>
+							</div>
+
+						</div>
+
+
+					</div>
+
+				
+				</fieldset>
+				<fieldset name="beneficiados_" class="form1">
+					<legend for="beneficiados_">BENEFICIADOS</legend>
+
+					<div class="control-group">
+
+							<label for="beneficiados" class="control-label label2" >Público Beneficiado</label>
+
+							<div class="controls">
+								<label class="checkbox inline" > <input name="beneficiados" type="checkbox" value="1" class="" /> Idosos </label> 
+			     				<label class="checkbox inline" > <input name="beneficiados" type="checkbox" value="2" class="" /> Crianças </label>
+			     				<label class="checkbox inline" > <input name="beneficiados" type="checkbox" value="3" class="" /> Deficientes </label>
+							</div>
+
+						</div>
+					
+
+					    <div class="control-group">
+
+							<label for="quantidade_beneficiados" class="control-label label2" >Numero de beneficiados</label>
+
+							<div class="controls">
+								<input type="text" name="quantidade_beneficiados"/>
+							</div>
+
+						</div>
+
+						<div class="control-group">
+
+							<label for="necessidades" class="control-label label2" >Necessidades </label>
+
+							<div class="controls">
+								<label class="checkbox inline" > <input name="necessidades" type="checkbox" value="1" class="" /> Alimento </label> 
+			     				<label class="checkbox inline" > <input name="necessidades" type="checkbox" value="2" class="" /> Vestuário </label>
+			     				<label class="checkbox inline" > <input name="necessidades" type="checkbox" value="3" class="" /> .... </label>
+							</div>
+
+						</div>
+
+						<div class="control-group">
+
+							<label for="apoio" class="control-label label2" >Já recebeu apoio?<span class="required">*</span></label>
+
+							<div class="controls">
+								<label class="checkbox inline" > <input name="apoio" type="radio" value="1" class="" /> Sim </label> 
+			     				<label class="checkbox inline" > <input name="apoio" type="radio" value="2" class="" /> Não </label>
+							</div>
+
+						</div>
+
+						<div class="control-group">
+
+							<label for="tipo_apoio" class="control-label label2" >Tipo de Apoio </label>
+
+							<div class="controls">
+								<label class="checkbox inline" > <input name="tipo_apoio" type="checkbox" value="1" class="" /> Municipal </label> 
+			     				<label class="checkbox inline" > <input name="tipo_apoio" type="checkbox" value="2" class="" /> Federal </label>
+			     				<label class="checkbox inline" > <input name="tipo_apoio" type="checkbox" value="3" class="" /> Privado </label>
+							</div>
+
+						</div>
+
+
+						<div class="control-group">
+
+							Dias de funcionamento<br />
+
+							
+								<br /><table class="table table-striped t1">
+									<tr>
+										<td> </td> <td>SEG </td> <td>TER </td> <td>QUA</td> <td>QUI </td> <td>SEX</td> <td>SA </td> <td>DO </td>
+									</tr>
+									<tr>
+										<td>7h </td> <td><input name="funcionamento" type="checkbox" value="1" class="" /> </td> <td><input name="funcionamento" type="checkbox" value="2" class="" /> </td> <td><input name="funcionamento" type="checkbox" value="3" class="" /></td> <td><input name="funcionamento" type="checkbox" value="4" class="" /> </td> <td><input name="funcionamento" type="checkbox" value="5" class="" /></td> <td><input name="funcionamento" type="checkbox" value="6" class="" /> </td> <td><input name="funcionamento" type="checkbox" value="7" class="" /> </td>
+									</tr>
+
+									<tr>
+										<td>12h </td> <td><input name="funcionamento" type="checkbox" value="8" class="" /> </td> <td><input name="funcionamento" type="checkbox" value="9" class="" /> </td> <td><input name="funcionamento" type="checkbox" value="10" class="" /></td> <td><input name="funcionamento" type="checkbox" value="11" class="" /> </td> <td><input name="funcionamento" type="checkbox" value="12" class="" /></td> <td><input name="funcionamento" type="checkbox" value="13" class="" /> </td> <td><input name="funcionamento" type="checkbox" value="14" class="" /> </td>
+									</tr>
+
+									<tr>
+										<td>15h </td> <td><input name="funcionamento" type="checkbox" value="15" class="" /> </td> <td><input name="funcionamento" type="checkbox" value="16" class="" /> </td> <td><input name="funcionamento" type="checkbox" value="17" class="" /></td> <td><input name="funcionamento" type="checkbox" value="18" class="" /> </td> <td><input name="funcionamento" type="checkbox" value="19" class="" /></td> <td><input name="funcionamento" type="checkbox" value="20" class="" /> </td> <td><input name="funcionamento" type="checkbox" value="21" class="" /> </td>
+									</tr>
+
+									<tr>
+										<td>19h </td> <td><input name="funcionamento" type="checkbox" value="23" class="" /> </td> <td><input name="funcionamento" type="checkbox" value="24" class="" /> </td> <td><input name="funcionamento" type="checkbox" value="25" class="" /></td> <td><input name="funcionamento" type="checkbox" value="26" class="" /> </td> <td><input name="funcionamento" type="checkbox" value="27" class="" /></td> <td><input name="funcionamento" type="checkbox" value="28" class="" /> </td> <td><input name="funcionamento" type="checkbox" value="29" class="" /> </td>
+									</tr>
+
+									<tr>
+										<td>Após 19h </td> <td><input name="funcionamento" type="checkbox" value="31" class="" /> </td> <td><input name="funcionamento" type="checkbox" value="32" class="" /> </td> <td><input name="funcionamento" type="checkbox" value="33" class="" /></td> <td><input name="funcionamento" type="checkbox" value="34" class="" /> </td> <td><input name="funcionamento" type="checkbox" value="35" class="" /></td> <td><input name="funcionamento" type="checkbox" value="36" class="" /> </td> <td><input name="funcionamento" type="checkbox" value="37" class="" /> </td>
+									</tr>
+
+
+								</table>
+							
+
+						</div>
+
+						
+					
+
+				</fieldset>
+
+				
+					<a href="index.html" class="btn btn-danger">Voltar</a>
+					<input type="submit" name="confirmar" id="botao" value="Cadastrar" class="btn enviar" />
+				
+
+			
+		<form>
